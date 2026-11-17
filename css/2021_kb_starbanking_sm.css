@@ -1,0 +1,525 @@
+@charset "UTF-8";
+.work-v.kbObiz .work-v-bg {
+  background-image: url(/upleat-work/images/work/2021_kb_starbanking_sm/kb_v.png);
+}
+
+.work-section .work-mock-up {
+  margin-top: 10.4167vw;
+}
+
+.work-section [class*=mock-up-] {
+  position: relative;
+}
+
+.work-section [class*=mock-up-] > span {
+  display: block;
+  width: 19.5313vw;
+  height: 42.2917vw;
+  border: 0.1042vw solid #000;
+  border-radius: 2.0833vw;
+  overflow: hidden;
+}
+
+.work-section [class*=mock-up-s] > span {
+  display: block;
+  width: 14.7396vw;
+  height: 29.375vw;
+  border: 0.0521vw solid #000;
+  border-radius: 2.0833vw;
+  overflow: hidden;
+}
+
+.work-section-approach .head h3 {
+  margin-top: 0.9375vw;
+}
+.work-section-approach .head p {
+  margin-top: 1.9791666667vw;
+}
+
+.approach {
+  position: relative;
+  width: 61.4583vw;
+  height: 40vw;
+  margin: 10.4166666667vw auto 0;
+}
+
+.approach .item-1 {
+  width: 39.8438vw;
+  height: 40vw;
+}
+
+.approach .item-2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 14.7917vw;
+  height: 14.7917vw;
+  margin-top: -7.3958vw;
+}
+
+.approach .arrow {
+  position: absolute;
+  top: 50%;
+  right: 16.875vw;
+  width: 3.0208vw;
+  height: 0.625vw;
+  margin-top: -0.3125vw;
+  background-image: url("data:image/svg+xml,%3Csvg width='58' height='12' viewBox='0 0 58 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M58 6.00001L48 0.226501L48 11.7735L58 6.00001ZM-8.74229e-08 7L49 7L49 5L8.74229e-08 5L-8.74229e-08 7Z' fill='%230029D2'/%3E%3C/svg%3E");
+  background-size: 3.0208vw 0.625vw;
+}
+
+.work-section-gui .head h3 + p {
+  margin-top: 0.9375vw;
+}
+
+.kb-outcome-h {
+  position: relative;
+  height: 27.8646vw;
+  overflow: hidden;
+}
+
+.kb-outcome-h .inner {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 77.0833vw;
+  height: 27.8646vw;
+  margin-left: -38.5416vw;
+  padding-top: 7.1354vw;
+  padding-left: 31.25vw;
+  box-sizing: border-box;
+  letter-spacing: -0.0156vw;
+  z-index: 5;
+}
+
+.kb-outcome-h .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/upleat-work/images/work/2021_kb_starbanking_sm/work_41_6.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.kb-outcome-h .inner h2,
+.kb-outcome-h .inner h3,
+.kb-outcome-h .inner p {
+  color: #fff;
+}
+
+.work-section .mock-up-outcome-1 {
+  position: absolute;
+  top: -16.4271vw;
+  left: 0;
+}
+
+.mock-up-outcome-1 img {
+  transform: translateY(0);
+  transition: transform 5s ease;
+  transition-delay: 1.5s;
+}
+
+.mock-up-outcome-1.on img {
+  transform: translateY(-61%);
+}
+
+.kb-outcome {
+  position: relative;
+  width: 75.5208vw;
+  margin: 0 auto;
+}
+
+.kb-outcome-wrap {
+  margin: 0 0 0 26.9271vw;
+}
+
+.kb-outcome-wrap + .kb-outcome-wrap {
+  margin-top: 0;
+}
+
+.mock-up-outcome-2 {
+  margin-top: 14.2708vw;
+}
+
+.mock-up-outcome-3 {
+  margin-left: 7.5vw;
+}
+
+.mock-up-outcome-4 {
+  margin: 3.125vw 0 0 4.5313vw;
+}
+
+.mock-up-outcome-5 {
+  margin: -8.25vw 0 0 5vw;
+}
+
+.work-section.drak-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='1416' height='1416' viewBox='0 0 1416 1416' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='708' cy='708' r='708' fill='%23F0F8FE'/%3E%3C/svg%3E");
+  background-position: 50% 23.5vw;
+  background-repeat: no-repeat;
+  background-size: 73.75vw 73.75vw;
+}
+
+.dark-theme {
+  width: 64.8438vw;
+  margin: 10.4166666667vw auto 0;
+  padding-bottom: 12.2292vw;
+  height: 70.8333333333vw;
+}
+
+.dark-theme div + div {
+  margin-left: 3.125vw;
+}
+
+.dark-theme .mock-up-dark-2 {
+  margin-top: 26.5625vw;
+}
+
+.dark-theme .mock-up-dark-3 {
+  margin-top: 5.2083vw;
+}
+
+.work-bottom.work-41 .work-bottom-bg {
+  background-image: url(/upleat-work/images/work/2021_kb_starbanking_sm/kb_bg.png);
+  background-size: contain;
+}
+
+@media (max-width: 1280px) {
+  .page-work h2 {
+    font-size: 22px !important;
+  }
+  .page-work h3,
+  .page-work h4 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+  }
+  .page-work h3 {
+    color: #0029d2 !important;
+    line-height: 130% !important;
+  }
+  .page-work h3.gray {
+    color: #606168 !important;
+  }
+  .page-work h3.black {
+    color: #343434 !important;
+  }
+  .page-work h4 {
+    color: #343434 !important;
+    line-height: 140% !important;
+  }
+  .page-work h4.gray {
+    color: #606168 !important;
+  }
+  .page-work h2 + h4 {
+    margin-top: 20px !important;
+  }
+  .page-work h3 + h4 {
+    margin-top: 20px !important;
+  }
+  .page-work h4 + p {
+    margin-top: 8px !important;
+  }
+  .work-v.kbObiz .work-v-bg {
+    background-image: url(/upleat-work/images/work/2021_kb_starbanking_sm/kb_v_mo.png);
+  }
+  .work-section [class*=mock-up-] > span {
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+  }
+  .work-section .kb-ov + .kb-ov {
+    margin-left: 0;
+  }
+  .mock-up-1.kb-ov {
+    padding: 0 34px;
+  }
+  .mock-up-s-2,
+  .mock-up-s-3 {
+    display: none;
+  }
+  .approach {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+  }
+  .approach .item-1 {
+    width: 326px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .approach .item-2 {
+    position: relative;
+    top: initial;
+    right: initial;
+    width: 142px;
+    height: 142px;
+    margin: 127px auto 0;
+  }
+  .approach .arrow {
+    top: 380px;
+    left: 50%;
+    right: initial;
+    width: 39px;
+    height: 8px;
+    margin-top: 0;
+    margin-left: -18px;
+    background-size: 39px 8px;
+    transform: rotate(90deg);
+  }
+  .kb-outcome {
+    display: flex;
+    width: 328px;
+    height: 819px;
+    margin: 0 auto;
+  }
+  .kb-outcome-h {
+    height: auto;
+    background: none;
+  }
+  .kb-outcome-h .inner {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .kb-outcome-h .inner h2 {
+    color: #0029d2;
+  }
+  .kb-outcome-h .inner h3,
+  .kb-outcome-h .inner p {
+    color: #343434;
+  }
+  .kb-outcome-h .bg {
+    background: none;
+  }
+  .work-section .mock-up-outcome-1 {
+    position: relative;
+    top: initial;
+    margin-top: 80px;
+  }
+  .work-section .mock-up-outcome-1 span {
+    width: 154px;
+    height: 336px;
+  }
+  .mock-up-outcome-1.on img {
+    transform: translateY(-45%);
+  }
+  .kb-outcome-wrap {
+    flex-direction: column;
+    margin: 0 0 0 19px;
+  }
+  .kb-outcome-wrap [class*=mock-up-] > span {
+    width: 154px;
+    height: 336px;
+    border-radius: 20px;
+  }
+  .mock-up-outcome-2 {
+    position: absolute;
+    top: 404px;
+    left: -175px;
+  }
+  .mock-up-outcome-3 {
+    margin-top: -150px;
+    margin-left: 0;
+  }
+  .mock-up-module-1 {
+    padding: 0 34px;
+  }
+  .work-section.drak-bg {
+    background-size: 464px 464px;
+    background-position: 50% 464px;
+  }
+  .dark-theme {
+    position: relative;
+    width: 328px;
+    height: 713px;
+    margin: 80px auto 0;
+  }
+  .dark-theme [class*=mock-up-dark] > span {
+    width: 154px;
+    height: 333px;
+  }
+  .dark-theme div + div {
+    margin-left: 0;
+  }
+  .dark-theme .mock-up-dark-2,
+  .dark-theme .mock-up-dark-3 {
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+  }
+  .dark-theme .mock-up-dark-1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -168px;
+  }
+  .dark-theme .mock-up-dark-2 {
+    top: 0;
+  }
+  .dark-theme .mock-up-dark-3 {
+    bottom: 0;
+  }
+}
+/* 1920px WIDE 대응 */
+@media screen and (min-width: 1921px) {
+  .work-v.kbObiz .work-v-bg {
+    background-image: url(/upleat-work/images/work/2021_kb_starbanking_sm/kb_v.png);
+  }
+  .work-section .work-mock-up {
+    margin-top: 200.00064px;
+  }
+  .work-section [class*=mock-up-] {
+    position: relative;
+  }
+  .work-section [class*=mock-up-] > span {
+    display: block;
+    width: 375.00096px;
+    height: 812.00064px;
+    border: 2.00064px solid #000;
+    border-radius: 39.99936px;
+    overflow: hidden;
+  }
+  .work-section [class*=mock-up-s] > span {
+    display: block;
+    width: 283.00032px;
+    height: 564px;
+    border: 1.00032px solid #000;
+    border-radius: 39.99936px;
+    overflow: hidden;
+  }
+  .work-section-approach .head h3 {
+    margin-top: 18px;
+  }
+  .work-section-approach .head p {
+    margin-top: 38px;
+  }
+  .approach {
+    position: relative;
+    width: 1179.99936px;
+    height: 768px;
+    margin: 200px auto 0;
+  }
+  .approach .item-1 {
+    width: 765.00096px;
+    height: 768px;
+  }
+  .approach .item-2 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 284.00064px;
+    height: 284.00064px;
+    margin-top: -141.99936px;
+  }
+  .approach .arrow {
+    position: absolute;
+    top: 50%;
+    right: 324px;
+    width: 57.99936px;
+    height: 12px;
+    margin-top: -6px;
+    background-image: url("data:image/svg+xml,%3Csvg width='58' height='12' viewBox='0 0 58 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M58 6.00001L48 0.226501L48 11.7735L58 6.00001ZM-8.74229e-08 7L49 7L49 5L8.74229e-08 5L-8.74229e-08 7Z' fill='%230029D2'/%3E%3C/svg%3E");
+    background-size: 57.99936px 12px;
+  }
+  .work-section-gui .head h3 + p {
+    margin-top: 18px;
+  }
+  .kb-outcome-h {
+    position: relative;
+    height: 535.00032px;
+    overflow: hidden;
+  }
+  .kb-outcome-h .inner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1479.99936px;
+    height: 535.00032px;
+    margin-left: -739.99872px;
+    padding-top: 136.99968px;
+    padding-left: 600px;
+    box-sizing: border-box;
+    letter-spacing: -0.29952px;
+    z-index: 5;
+  }
+  .kb-outcome-h .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/upleat-work/images/work/2021_kb_starbanking_sm/work_41_6.png) 50% 50% no-repeat;
+    background-size: cover;
+  }
+  .kb-outcome-h .inner h2,
+  .kb-outcome-h .inner h3,
+  .kb-outcome-h .inner p {
+    color: #fff;
+  }
+  .work-section .mock-up-outcome-1 {
+    position: absolute;
+    top: -315.40032px;
+    left: 0;
+  }
+  .mock-up-outcome-1 img {
+    transform: translateY(0);
+    transition: transform 5s ease;
+    transition-delay: 1.5s;
+  }
+  .mock-up-outcome-1.on img {
+    transform: translateY(-61%);
+  }
+  .kb-outcome {
+    position: relative;
+    width: 1449.99936px;
+    margin: 0 auto;
+  }
+  .kb-outcome-wrap {
+    margin: 0 0 0 517.00032px;
+  }
+  .kb-outcome-wrap + .kb-outcome-wrap {
+    margin-top: 0;
+  }
+  .mock-up-outcome-2 {
+    margin-top: 273.99936px;
+  }
+  .mock-up-outcome-3 {
+    margin-left: 144px;
+  }
+  .mock-up-outcome-4 {
+    margin: 60px 0 0 87.00096px;
+  }
+  .mock-up-outcome-5 {
+    margin: -158.4px 0 0 96px;
+  }
+  .work-section.drak-bg {
+    background-image: url("data:image/svg+xml,%3Csvg width='1416' height='1416' viewBox='0 0 1416 1416' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='708' cy='708' r='708' fill='%23F0F8FE'/%3E%3C/svg%3E");
+    background-position: 50% 451.2px;
+    background-repeat: no-repeat;
+    background-size: 1416px 1416px;
+  }
+  .dark-theme {
+    width: 1245.00096px;
+    margin: 200px auto 0;
+    padding-bottom: 234.80064px;
+    height: 1360px;
+  }
+  .dark-theme div + div {
+    margin-left: 60px;
+  }
+  .dark-theme .mock-up-dark-2 {
+    margin-top: 510px;
+  }
+  .dark-theme .mock-up-dark-3 {
+    margin-top: 99.99936px;
+  }
+  .work-bottom.work-41 .work-bottom-bg {
+    background-image: url(/upleat-work/images/work/2021_kb_starbanking_sm/kb_bg.png);
+    background-size: contain;
+  }
+}

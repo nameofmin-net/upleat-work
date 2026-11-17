@@ -1,0 +1,1324 @@
+@charset "UTF-8";
+.work-bottom.work_30 {
+  height: auto;
+}
+
+.work-v.work_30 .work-v-bg {
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_v.png);
+}
+
+.work-bottom.work_30 .work-bottom-bg {
+  display: none;
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_bg.png);
+}
+
+.approach {
+  position: relative;
+  width: 66.1458vw;
+  margin: 5.2083333333vw auto 0;
+  padding-bottom: 5.2083333333vw;
+}
+
+.approach::after {
+  content: "";
+  position: absolute;
+  top: 7.5604vw;
+  left: 29.3438vw;
+  width: 14.6354vw;
+  height: 12.0833vw;
+  background-image: url("data:image/svg+xml,%3Csvg width='281' height='232' viewBox='0 0 281 232' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M275.333 3C275.333 4.47276 276.527 5.66667 278 5.66667C279.473 5.66667 280.667 4.47276 280.667 3C280.667 1.52724 279.473 0.333333 278 0.333333C276.527 0.333333 275.333 1.52724 275.333 3ZM1.31776 231.386L278.318 3.38605L277.682 2.61395L0.682244 230.614L1.31776 231.386Z' fill='%230029D2'/%3E%3C/svg%3E%0A");
+  background-size: 14.6354vw 12.0833vw;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s ease-out;
+}
+
+.approach.on::after {
+  transition-delay: 0.6s;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.approach .context {
+  width: 41.7708vw;
+  height: 41.7708vw;
+  background: url(/upleat-work/images/work/2021_woori_sm/work_30_1.png) no-repeat;
+  background-size: 41.7708vw 41.7708vw;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s ease-out;
+}
+
+.approach.on .context {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.approach .txt {
+  position: absolute;
+  top: 6.9271vw;
+  right: -1.5625vw;
+  width: 22.9166666667vw;
+  opacity: 0;
+  transform: translateX(50%);
+  transition: 0.8s ease-out;
+}
+
+.approach.on .txt {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 1.2s;
+}
+
+.approach .txt p:nth-child(1) {
+  font-size: 1.1458333333vw;
+  font-weight: 600;
+  line-height: 100%;
+  color: #0029d2;
+}
+
+.approach .txt p:nth-child(2) {
+  margin-top: 0.7813vw;
+  font-size: 1.0417vw;
+  color: #606168;
+}
+
+.won-concept {
+  width: 59.1667vw;
+  height: 42.3438vw;
+  margin: 10.4166666667vw auto 0;
+  padding-bottom: 5.2083333333vw;
+}
+
+.won-process {
+  width: 60.1042vw;
+  margin: 10.4166666667vw auto 10.4166666667vw;
+}
+
+.won-process .track {
+  position: relative;
+  height: 26.875vw;
+}
+
+.won-process .track::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60.1042vw;
+  height: 26.875vw;
+  background: url(/upleat-work/images/work/2021_woori_sm/work_30_3.png) no-repeat;
+  background-size: 60.1042vw 26.875vw;
+}
+
+.won-process .track .inner {
+  position: relative;
+  width: 50.3646vw;
+  height: 26.875vw;
+  margin: 0 auto;
+  padding-top: 6.5375vw;
+}
+
+.won-process .track .inner::before {
+  content: "";
+  position: absolute;
+  top: 13.2521vw;
+  left: 0;
+  width: 0;
+  height: 0.0520833333vw;
+  background-color: #0029d2;
+  z-index: 1;
+  transition: width 0.6s linear;
+}
+
+.won-process .track.on .inner::before {
+  width: 100%;
+  transition-delay: 1.5s;
+}
+
+.won-process .track .inner .item {
+  width: 13.2813vw;
+  height: 13.2813vw;
+  background-size: 13.2813vw 13.2813vw;
+  background-repeat: no-repeat;
+  z-index: 2;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.6s ease-out;
+}
+
+.won-process .track.on .inner .item {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.won-process .track .inner .item + .item {
+  margin-left: 5.3083vw;
+}
+
+.won-process .track .inner .item:nth-child(1) {
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_4.png);
+  transition-delay: 0.6s;
+}
+
+.won-process .track .inner .item:nth-child(2) {
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_5.png);
+  transition-delay: 0.9s;
+}
+
+.won-process .track .inner .item:nth-child(3) {
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_6.png);
+  transition-delay: 1.2s;
+}
+
+.won-process .list {
+  width: 40.9896vw;
+  justify-content: space-between;
+  margin: 2.6042vw auto 0;
+}
+
+.won-process .list span {
+  display: block;
+  font-size: 1.0417vw;
+  color: #0029d2;
+  text-align: center;
+  font-family: "proxima-nova";
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.won-process .list span + span {
+  margin-top: 0.2604vw;
+}
+
+.won-sprint {
+  position: relative;
+  margin-top: 10.4166666667vw;
+  margin-bottom: 10.4166666667vw;
+  overflow: hidden;
+}
+
+.won-sprint .bg {
+  height: 35.3125vw;
+  background: url(/upleat-work/images/work/2021_woori_sm/work_30_7.png) 50% 18% no-repeat;
+  background-size: cover;
+}
+
+.won-sprint-step {
+  position: absolute;
+  top: 3.75vw;
+  left: 50%;
+  width: 61.4583vw;
+  margin-left: -30.7292vw;
+  justify-content: space-between;
+  font-size: 0.9375vw;
+  color: #fff;
+  text-align: center;
+}
+
+.won-sprint-step > li > span {
+  display: block;
+  position: relative;
+  width: 8.9583vw;
+  height: 8.9583vw;
+  padding-top: 2.0313vw;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.won-sprint-step > li + li > span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -4.3667vw;
+  width: 4.1667vw;
+  height: 0.1041666667vw;
+  margin-top: -0.0520833333vw;
+  background-color: #fff;
+}
+
+.won-sprint-step > li > span > strong {
+  display: block;
+  padding-bottom: 0.4167vw;
+  font-size: 1.0417vw;
+}
+
+.won-sprint-step > li > ul {
+  position: relative;
+  margin-top: 3.6458vw;
+}
+
+.won-sprint-step > li > ul::before {
+  content: "";
+  position: absolute;
+  top: -3.6458vw;
+  left: 50%;
+  width: 0.0520833333vw;
+  height: 3.6458vw;
+  background-color: #fff;
+}
+
+.won-sprint-step > li > ul > li {
+  display: block;
+  position: relative;
+  width: 6.7708vw;
+  height: 6.7708vw;
+  margin: 0 auto;
+  padding-top: 2.0313vw;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.won-sprint-step > li > ul > li + li {
+  margin-top: 1.5625vw;
+}
+
+.won-sprint-step > li > ul > li + li::before {
+  content: "";
+  position: absolute;
+  top: -1.5625vw;
+  left: 50%;
+  width: 0.0520833333vw;
+  height: 1.5625vw;
+  background-color: #fff;
+}
+
+.won-mvp {
+  position: relative;
+  width: 58.6458vw;
+  height: 40.2083vw;
+  margin: 9.8958vw auto 0;
+  padding-bottom: 5.2083333333vw;
+}
+
+.won-mvp .client,
+.won-mvp .worker {
+  width: 11.6667vw;
+  height: 17.6042vw;
+  font-size: 1.5625vw;
+  font-weight: 600;
+  color: #0029d2;
+  text-align: center;
+}
+
+.won-mvp .worker {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.won-mvp .client::after,
+.won-mvp .worker::after {
+  content: "";
+  display: block;
+  height: 12.9167vw;
+  margin-top: 2.6042vw;
+  background-size: 11.6667vw 12.9167vw;
+  background-repeat: no-repeat;
+}
+
+.won-mvp .client::after {
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_8.png);
+}
+
+.won-mvp .worker::after {
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_9.png);
+}
+
+.won-mvp .tool {
+  position: absolute;
+  top: 5.0833vw;
+  left: 50%;
+  width: 18.4375vw;
+  height: 11.3542vw;
+  margin-left: -9.2187vw;
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_10.png);
+  background-size: 18.4375vw 11.3542vw;
+  background-repeat: no-repeat;
+}
+
+.won-mvp .mvp {
+  position: absolute;
+  top: 22.8125vw;
+  left: 50%;
+  width: 8.0729vw;
+  height: 17.3958vw;
+  margin-left: -4.0365vw;
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_11.png);
+  background-size: 8.0729vw 17.3958vw;
+  background-repeat: no-repeat;
+}
+
+.won-mvp [class*=arrow-] {
+  position: absolute;
+  width: 2.0313vw;
+  height: 0.8333vw;
+  background-image: url("data:image/svg+xml,%3Csvg width='39' height='16' viewBox='0 0 39 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M38.7071 8.70711C39.0976 8.31658 39.0976 7.68342 38.7071 7.29289L32.3431 0.928932C31.9526 0.538408 31.3195 0.538408 30.9289 0.928932C30.5384 1.31946 30.5384 1.95262 30.9289 2.34315L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.70711ZM0 9H38V7H0V9Z' fill='%230029D2'/%3E%3C/svg%3E");
+  background-size: 2.0313vw 0.8333vw;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
+.won-mvp [class*=arrow-].on {
+  opacity: 1;
+  transition-delay: 1.5s;
+}
+
+.won-mvp .arrow-1 {
+  top: 10.8333vw;
+  left: 13.0208vw;
+}
+
+.won-mvp .arrow-2 {
+  top: 10.8333vw;
+  left: 43.8542vw;
+  transform: rotate(180deg);
+}
+
+.won-mvp .arrow-3 {
+  top: 18.4375vw;
+  left: 28.2708vw;
+  transform: rotate(90deg);
+}
+
+.won-universal {
+  width: 58.5938vw;
+  margin: 5.2083333333vw auto 0;
+  padding-bottom: 5.2083333333vw;
+}
+
+.won-universal p {
+  font-size: 1.5625vw;
+  font-weight: 600;
+  color: #0029d2;
+  text-align: center;
+}
+
+.won-universal p span {
+  display: block;
+  font-size: 1.0417vw;
+}
+
+.won-universal ul {
+  width: 58.5938vw;
+  margin: 5.2083333333vw auto 0;
+  font-size: 1.5625vw;
+  font-weight: 600;
+  color: #0029d2;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.won-universal ul li {
+  font-family: "proxima-nova";
+  width: 12.5vw;
+  height: 12.5vw;
+  padding-top: 4.7916666667vw;
+  background-color: #0029d2;
+  border-radius: 100%;
+  font-size: 1.3541666667vw;
+  font-weight: 700;
+  line-height: 130%;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.won-ux-writing {
+  position: relative;
+  width: 55.9896vw;
+  margin: 10.4166666667vw auto 0;
+}
+
+.won-ux-writing span {
+  display: block;
+  position: relative;
+  width: 14.9479vw;
+  height: 20.6771vw;
+  margin: 0 auto;
+  font-size: 1.5625vw;
+  font-weight: 700;
+  color: #0029d2;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.6s ease-out;
+}
+
+.won-ux-writing.on span {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.6s;
+}
+
+.won-ux-writing span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0.8333vw;
+  margin: 0.9166vw 0 0 -15.7291vw;
+  background-image: url("data:image/svg+xml,%3Csvg width='604' height='16' viewBox='0 0 604 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M603.707 9.00008C604.098 8.60955 604.098 7.97639 603.707 7.58586L597.343 1.2219C596.953 0.831377 596.319 0.831377 595.929 1.2219C595.538 1.61243 595.538 2.24559 595.929 2.63611L601.586 8.29297L595.929 13.9498C595.538 14.3403 595.538 14.9735 595.929 15.364C596.319 15.7546 596.953 15.7546 597.343 15.364L603.707 9.00008ZM0 9.29297L603 9.29297V7.29297L0 7.29297L0 9.29297Z' fill='%23343434'/%3E%3C/svg%3E");
+  background-size: 31.4583vw 0.8333vw;
+  z-index: 1;
+  transition: width 0.6s ease-out;
+}
+
+.won-ux-writing.on span::before {
+  width: 31.4583vw;
+  transition-delay: 1.5s;
+}
+
+.won-ux-writing span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 14.9479vw;
+  height: 17.3438vw;
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_13.png);
+  background-size: contain;
+  z-index: 3;
+}
+
+.won-ux-writing::before,
+.won-ux-writing::after {
+  content: "";
+  position: absolute;
+  top: 6.7708vw;
+  background-size: contain;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.6s ease-out;
+}
+
+.won-ux-writing.on::before,
+.won-ux-writing.on::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.won-ux-writing.on::after {
+  transition-delay: 1.2s;
+}
+
+.won-ux-writing::before {
+  left: 0;
+  width: 9.8958vw;
+  height: 9.8958vw;
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_12.png);
+}
+
+.won-ux-writing::after {
+  right: 0;
+  width: 8.025vw;
+  height: 10.2604vw;
+  background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_14.png);
+}
+
+@media (max-width: 1280px) {
+  .page-work h2 {
+    font-size: 22px !important;
+  }
+  .page-work h3,
+  .page-work h4 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+  }
+  .page-work h3 {
+    color: #0029d2 !important;
+    line-height: 130% !important;
+  }
+  .page-work h3.gray {
+    color: #606168 !important;
+  }
+  .page-work h3.black {
+    color: #343434 !important;
+  }
+  .page-work h4 {
+    color: #343434 !important;
+    line-height: 140% !important;
+  }
+  .page-work h4.gray {
+    color: #606168 !important;
+  }
+  .page-work h2 + h4 {
+    margin-top: 20px !important;
+  }
+  .page-work h3 + h4 {
+    margin-top: 20px !important;
+  }
+  .page-work h4 + p {
+    margin-top: 8px !important;
+  }
+  .page-work .work-section:has(.won-process) {
+    margin-top: 80px;
+  }
+  .work-v.work_30 .work-v-bg {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_v_mo.png);
+  }
+  .approach {
+    margin-top: 100px;
+    width: auto;
+  }
+  .approach::after {
+    top: 170px;
+    left: 50%;
+    width: 125px;
+    height: 196px;
+    margin-left: -100px;
+    background-image: url("data:image/svg+xml,%3Csvg width='125' height='196' viewBox='0 0 125 196' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.42145 190.742C3.17536 189.957 1.5288 190.331 0.743764 191.577C-0.0412676 192.823 0.332486 194.469 1.57857 195.254C2.82466 196.039 4.47122 195.666 5.25625 194.419C6.04129 193.173 5.66753 191.527 4.42145 190.742ZM123.999 -0.000894517L2.57696 192.732L3.42305 193.265L124.845 0.532145L123.999 -0.000894517Z' fill='%230029D2'/%3E%3C/svg%3E%0A");
+    background-size: 125px 196px;
+  }
+  .approach .context {
+    width: 328px;
+    height: 328px;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .approach .txt {
+    position: relative;
+    top: initial;
+    right: initial;
+    width: auto;
+    margin-top: 63px;
+  }
+  .approach .txt p:nth-child(1),
+  .approach .txt p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 160%;
+  }
+  .approach .txt p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .won-concept {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+  }
+  .won-process {
+    width: 262px;
+    margin: 80px auto 0;
+  }
+  .won-process .track {
+    width: 262px;
+    height: 587px;
+  }
+  .won-process .track::before {
+    top: 50%;
+    left: 50%;
+    width: 587px;
+    height: 262px;
+    margin: -131px 0 0 -293px;
+    transform: rotate(90deg);
+    background-size: cover;
+  }
+  .won-process .track .inner {
+    width: 130px;
+    height: auto;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .won-process .track .inner .item + .item {
+    margin-top: 47px;
+    margin-left: 0;
+  }
+  .won-process .track .inner .item {
+    width: 130px;
+    height: 130px;
+    background-size: 130px 130px;
+  }
+  .won-process .track .inner::before {
+    top: 50px;
+    left: 50%;
+    width: 1px;
+    height: 0;
+    transition: height 0.6s linear;
+  }
+  .won-process .track.on .inner::before {
+    width: 1px;
+    height: 484px;
+  }
+  .won-process .list {
+    width: auto;
+    margin-top: 80px;
+    flex-direction: column;
+  }
+  .won-process .list li + li {
+    margin-top: 40px;
+  }
+  .won-process .list span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .won-sprint {
+    margin: 80px -24px 0;
+    height: 1200px;
+  }
+  .won-sprint .bg {
+    height: 100%;
+    background-position: 13% 0;
+  }
+  .won-sprint-step {
+    top: 100px;
+    width: 327px;
+    flex-direction: column;
+    margin-left: -163px;
+  }
+  .won-sprint-step > li {
+    display: flex;
+  }
+  .won-sprint-step > li + li {
+    margin-top: 100px;
+  }
+  .won-sprint-step > li > span {
+    width: 120px;
+    height: 120px;
+    padding-top: 28px;
+  }
+  .won-sprint-step > li + li > span::before {
+    top: -101px;
+    left: 50%;
+    width: 2px;
+    height: 100px;
+    margin-left: -1px;
+  }
+  .won-sprint-step > li > span > strong {
+    padding-bottom: 8px;
+  }
+  .won-sprint-step > li > span > strong,
+  .won-sprint-step > li > span > span {
+    font-size: 14px;
+  }
+  .work-section .won-sprint-step > li > span > strong {
+    font-size: 16px;
+  }
+  .work-section .won-sprint-step > li > span > span {
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .won-sprint-step > li > ul {
+    display: flex;
+    margin-top: 20px;
+  }
+  .won-sprint-step > li > ul::before {
+    top: 50%;
+    left: 0;
+    width: 23px;
+    height: 1px;
+    margin-top: -10px;
+  }
+  .won-sprint-step > li > ul > li {
+    width: 80px;
+    height: 80px;
+    margin-left: 24px;
+    padding-top: 18px;
+    font-size: 12px;
+  }
+  .won-sprint-step > li > ul > li + li {
+    margin-top: 0;
+  }
+  .won-sprint-step > li > ul > li + li::before {
+    top: 50%;
+    left: 0;
+    width: 23px;
+    height: 1px;
+    margin-top: 0px;
+    margin-left: -24px;
+  }
+  .won-mvp {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+  }
+  .won-mvp .client,
+  .won-mvp .worker {
+    width: 117px;
+    height: 172px;
+    font-size: 20px;
+  }
+  .won-mvp .client::after,
+  .won-mvp .worker::after {
+    width: 117px;
+    height: 130px;
+    margin-top: 10px;
+    background-size: contain;
+  }
+  .won-mvp .tool {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: 212px;
+    height: 130px;
+    margin: 66px auto 0;
+    background-size: contain;
+  }
+  .won-mvp .mvp {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: 99px;
+    height: 212px;
+    margin: 68px auto 0;
+    background-size: contain;
+  }
+  .won-mvp [class*=arrow-] {
+    width: 24px;
+    height: 8px;
+    background-size: contain;
+  }
+  .won-mvp .arrow-3 {
+    top: 400px;
+    left: 50%;
+    margin-left: -14px;
+  }
+  .won-mvp .arrow-1 {
+    top: 200px;
+    left: 110px;
+    transform: rotate(45deg);
+  }
+  .won-mvp .arrow-2 {
+    top: 200px;
+    left: 190px;
+    transform: rotate(135deg);
+  }
+  .won-universal {
+    width: auto;
+    margin-top: 100px;
+  }
+  .won-universal p {
+    font-size: 18px;
+  }
+  .won-universal p span {
+    font-size: 16px;
+  }
+  .won-universal ul {
+    margin-top: 80px;
+    flex-direction: column;
+  }
+  .won-universal ul li {
+    font-family: "proxima-nova";
+    width: 188px;
+    height: 188px;
+    padding-top: 67px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  .won-universal ul li + li {
+    margin-top: 80px;
+  }
+  .won-ux-writing {
+    width: 221px;
+    margin: 100px auto 0;
+  }
+  .won-ux-writing::before,
+  .won-ux-writing::after {
+    display: block;
+    position: relative;
+    top: initial;
+    margin: 0 auto;
+  }
+  .won-ux-writing::before {
+    left: initial;
+    width: 112px;
+    height: 112px;
+  }
+  .won-ux-writing::after {
+    right: initial;
+    width: 120px;
+    height: 152px;
+  }
+  .won-ux-writing span {
+    width: 221px;
+    height: 293px;
+    margin: 94px 0 180px;
+  }
+  .won-ux-writing span::before {
+    width: 16px;
+    height: 0;
+    margin: -218px 0 0 -2px;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='476' viewBox='0 0 16 476' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 0.828125L8 71.7834' stroke='%23343434' stroke-width='2'/%3E%3Cpath d='M7.29289 475.085C7.68341 475.476 8.31658 475.476 8.7071 475.085L15.0711 468.721C15.4616 468.331 15.4616 467.698 15.0711 467.307C14.6805 466.916 14.0474 466.916 13.6569 467.307L8 472.964L2.34314 467.307C1.95262 466.916 1.31945 466.916 0.92893 467.307C0.538405 467.698 0.538405 468.331 0.928929 468.721L7.29289 475.085ZM7 406.508L7 474.378L9 474.378L9 406.508L7 406.508Z' fill='%23343434'/%3E%3C/svg%3E");
+    background-size: 16px 476px;
+    transition: height 0.6s ease-out;
+  }
+  .won-ux-writing.on span::before {
+    width: 16px;
+    height: 476px;
+  }
+  .won-ux-writing span::after {
+    top: 0;
+    bottom: initial;
+    width: 221px;
+    height: 257px;
+  }
+  .won-ux-writing span em {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+/* 1920px WIDE 대응 */
+@media screen and (min-width: 1921px) {
+  .work-bottom.work_30 {
+    height: auto;
+  }
+  .work-v.work_30 .work-v-bg {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_v.png);
+  }
+  .work-bottom.work_30 .work-bottom-bg {
+    display: none;
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_bg.png);
+  }
+  .approach {
+    position: relative;
+    width: 1269.99936px;
+    margin: 100px auto 0;
+    padding-bottom: 100px;
+  }
+  .approach::after {
+    content: "";
+    position: absolute;
+    top: 145.15968px;
+    left: 563.40096px;
+    width: 280.99968px;
+    height: 231.99936px;
+    background-image: url("data:image/svg+xml,%3Csvg width='281' height='232' viewBox='0 0 281 232' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M275.333 3C275.333 4.47276 276.527 5.66667 278 5.66667C279.473 5.66667 280.667 4.47276 280.667 3C280.667 1.52724 279.473 0.333333 278 0.333333C276.527 0.333333 275.333 1.52724 275.333 3ZM1.31776 231.386L278.318 3.38605L277.682 2.61395L0.682244 230.614L1.31776 231.386Z' fill='%230029D2'/%3E%3C/svg%3E%0A");
+    background-size: 280.99968px 231.99936px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s ease-out;
+  }
+  .approach.on::after {
+    transition-delay: 0.6s;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .approach .context {
+    width: 801.99936px;
+    height: 801.99936px;
+    background: url(/upleat-work/images/work/2021_woori_sm/work_30_1.png) no-repeat;
+    background-size: 801.99936px 801.99936px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s ease-out;
+  }
+  .approach.on .context {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .approach .txt {
+    position: absolute;
+    top: 133.00032px;
+    right: -1.5625vw;
+    width: 440px;
+    opacity: 0;
+    transform: translateX(50%);
+    transition: 0.8s ease-out;
+  }
+  .approach.on .txt {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 1.2s;
+  }
+  .approach .txt p:nth-child(1) {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #0029d2;
+  }
+  .approach .txt p:nth-child(2) {
+    margin-top: 15.00096px;
+    font-size: 20.00064px;
+    color: #606168;
+  }
+  .won-concept {
+    width: 1136.00064px;
+    height: 813.00096px;
+    margin: 200px auto 0;
+    padding-bottom: 100px;
+  }
+  .won-process {
+    width: 1154.00064px;
+    margin: 200px auto 200px;
+  }
+  .won-process .track {
+    position: relative;
+    height: 516px;
+  }
+  .won-process .track::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1154.00064px;
+    height: 516px;
+    background: url(/upleat-work/images/work/2021_woori_sm/work_30_3.png) no-repeat;
+    background-size: 1154.00064px 516px;
+  }
+  .won-process .track .inner {
+    position: relative;
+    width: 967.00032px;
+    height: 516px;
+    margin: 0 auto;
+    padding-top: 125.52px;
+  }
+  .won-process .track .inner::before {
+    content: "";
+    position: absolute;
+    top: 254.44032px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #0029d2;
+    z-index: 1;
+    transition: width 0.6s linear;
+  }
+  .won-process .track.on .inner::before {
+    width: 100%;
+    transition-delay: 1.5s;
+  }
+  .won-process .track .inner .item {
+    width: 255.00096px;
+    height: 255.00096px;
+    background-size: 255.00096px 255.00096px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.6s ease-out;
+  }
+  .won-process .track.on .inner .item {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .won-process .track .inner .item + .item {
+    margin-left: 101.91936px;
+  }
+  .won-process .track .inner .item:nth-child(1) {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_4.png);
+    transition-delay: 0.6s;
+  }
+  .won-process .track .inner .item:nth-child(2) {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_5.png);
+    transition-delay: 0.9s;
+  }
+  .won-process .track .inner .item:nth-child(3) {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_6.png);
+    transition-delay: 1.2s;
+  }
+  .won-process .list {
+    width: 787.00032px;
+    justify-content: space-between;
+    margin: 50.00064px auto 0;
+  }
+  .won-process .list span {
+    display: block;
+    font-size: 20.00064px;
+    color: #0029d2;
+    text-align: center;
+    font-family: "proxima-nova";
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .won-process .list span + span {
+    margin-top: 4.99968px;
+  }
+  .won-sprint {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    overflow: hidden;
+  }
+  .won-sprint .bg {
+    height: 678px;
+    background: url(/upleat-work/images/work/2021_woori_sm/work_30_7.png) 50% 18% no-repeat;
+    background-size: cover;
+  }
+  .won-sprint-step {
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    width: 1179.99936px;
+    margin-left: -590.00064px;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+  .won-sprint-step > li > span {
+    display: block;
+    position: relative;
+    width: 171.99936px;
+    height: 171.99936px;
+    padding-top: 39.00096px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  .won-sprint-step > li + li > span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -83.84064px;
+    width: 80.00064px;
+    height: 2px;
+    margin-top: -0.0520833333vw;
+    background-color: #fff;
+  }
+  .won-sprint-step > li > span > strong {
+    display: block;
+    padding-bottom: 8.00064px;
+    font-size: 20.00064px;
+  }
+  .won-sprint-step > li > ul {
+    position: relative;
+    margin-top: 69.99936px;
+  }
+  .won-sprint-step > li > ul::before {
+    content: "";
+    position: absolute;
+    top: -69.99936px;
+    left: 50%;
+    width: 1px;
+    height: 69.99936px;
+    background-color: #fff;
+  }
+  .won-sprint-step > li > ul > li {
+    display: block;
+    position: relative;
+    width: 129.99936px;
+    height: 129.99936px;
+    margin: 0 auto;
+    padding-top: 39.00096px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  .won-sprint-step > li > ul > li + li {
+    margin-top: 30px;
+  }
+  .won-sprint-step > li > ul > li + li::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 1px;
+    height: 30px;
+    background-color: #fff;
+  }
+  .won-mvp {
+    position: relative;
+    width: 1125.99936px;
+    height: 771.99936px;
+    margin: 189.99936px auto 0;
+    padding-bottom: 100px;
+  }
+  .won-mvp .client,
+  .won-mvp .worker {
+    width: 224.00064px;
+    height: 338.00064px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0029d2;
+    text-align: center;
+  }
+  .won-mvp .worker {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .won-mvp .client::after,
+  .won-mvp .worker::after {
+    content: "";
+    display: block;
+    height: 248.00064px;
+    margin-top: 50.00064px;
+    background-size: 224.00064px 248.00064px;
+    background-repeat: no-repeat;
+  }
+  .won-mvp .client::after {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_8.png);
+  }
+  .won-mvp .worker::after {
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_9.png);
+  }
+  .won-mvp .tool {
+    position: absolute;
+    top: 97.59936px;
+    left: 50%;
+    width: 354px;
+    height: 218.00064px;
+    margin-left: -176.99904px;
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_10.png);
+    background-size: 354px 218.00064px;
+    background-repeat: no-repeat;
+  }
+  .won-mvp .mvp {
+    position: absolute;
+    top: 438px;
+    left: 50%;
+    width: 154.99968px;
+    height: 333.99936px;
+    margin-left: -77.5008px;
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_11.png);
+    background-size: 154.99968px 333.99936px;
+    background-repeat: no-repeat;
+  }
+  .won-mvp [class*=arrow-] {
+    position: absolute;
+    width: 39.00096px;
+    height: 15.99936px;
+    background-image: url("data:image/svg+xml,%3Csvg width='39' height='16' viewBox='0 0 39 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M38.7071 8.70711C39.0976 8.31658 39.0976 7.68342 38.7071 7.29289L32.3431 0.928932C31.9526 0.538408 31.3195 0.538408 30.9289 0.928932C30.5384 1.31946 30.5384 1.95262 30.9289 2.34315L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.70711ZM0 9H38V7H0V9Z' fill='%230029D2'/%3E%3C/svg%3E");
+    background-size: 39.00096px 15.99936px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+  }
+  .won-mvp [class*=arrow-].on {
+    opacity: 1;
+    transition-delay: 1.5s;
+  }
+  .won-mvp .arrow-1 {
+    top: 207.99936px;
+    left: 249.99936px;
+  }
+  .won-mvp .arrow-2 {
+    top: 207.99936px;
+    left: 842.00064px;
+    transform: rotate(180deg);
+  }
+  .won-mvp .arrow-3 {
+    top: 354px;
+    left: 542.79936px;
+    transform: rotate(90deg);
+  }
+  .won-universal {
+    width: 1125.00096px;
+    margin: 100px auto 0;
+    padding-bottom: 100px;
+  }
+  .won-universal p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0029d2;
+    text-align: center;
+  }
+  .won-universal p span {
+    display: block;
+    font-size: 20.00064px;
+  }
+  .won-universal ul {
+    width: 1125.00096px;
+    margin: 100px auto 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0029d2;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .won-universal ul li {
+    font-family: "proxima-nova";
+    width: 240px;
+    height: 240px;
+    padding-top: 92px;
+    background-color: #0029d2;
+    border-radius: 100%;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  .won-ux-writing {
+    position: relative;
+    width: 1075.00032px;
+    margin: 200px auto 0;
+  }
+  .won-ux-writing span {
+    display: block;
+    position: relative;
+    width: 286.99968px;
+    height: 397.00032px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0029d2;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.6s ease-out;
+  }
+  .won-ux-writing.on span {
+    opacity: 1;
+    transform: scale(1);
+    transition-delay: 0.6s;
+  }
+  .won-ux-writing span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 15.99936px;
+    margin: 17.59872px 0 0 -301.99872px;
+    background-image: url("data:image/svg+xml,%3Csvg width='604' height='16' viewBox='0 0 604 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M603.707 9.00008C604.098 8.60955 604.098 7.97639 603.707 7.58586L597.343 1.2219C596.953 0.831377 596.319 0.831377 595.929 1.2219C595.538 1.61243 595.538 2.24559 595.929 2.63611L601.586 8.29297L595.929 13.9498C595.538 14.3403 595.538 14.9735 595.929 15.364C596.319 15.7546 596.953 15.7546 597.343 15.364L603.707 9.00008ZM0 9.29297L603 9.29297V7.29297L0 7.29297L0 9.29297Z' fill='%23343434'/%3E%3C/svg%3E");
+    background-size: 603.99936px 15.99936px;
+    z-index: 1;
+    transition: width 0.6s ease-out;
+  }
+  .won-ux-writing.on span::before {
+    width: 603.99936px;
+    transition-delay: 1.5s;
+  }
+  .won-ux-writing span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 286.99968px;
+    height: 333.00096px;
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_13.png);
+    background-size: contain;
+    z-index: 3;
+  }
+  .won-ux-writing::before,
+  .won-ux-writing::after {
+    content: "";
+    position: absolute;
+    top: 129.99936px;
+    background-size: contain;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.6s ease-out;
+  }
+  .won-ux-writing.on::before,
+  .won-ux-writing.on::after {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .won-ux-writing.on::after {
+    transition-delay: 1.2s;
+  }
+  .won-ux-writing::before {
+    left: 0;
+    width: 189.99936px;
+    height: 189.99936px;
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_12.png);
+  }
+  .won-ux-writing::after {
+    right: 0;
+    width: 154.08px;
+    height: 196.99968px;
+    background-image: url(/upleat-work/images/work/2021_woori_sm/work_30_14.png);
+  }
+}
