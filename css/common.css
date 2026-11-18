@@ -9246,6 +9246,10 @@ body::-webkit-scrollbar-track {
 .page-ir .padge-detail {
   display: none;
 }
+.page-ir .padge-detail-list.active,
+.page-ir .padge-detail.active {
+  display: block;
+}
 
 /* 1920px WIDE 대응 */
 @media screen and (min-width: 1921px) {
